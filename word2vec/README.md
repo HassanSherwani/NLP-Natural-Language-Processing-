@@ -13,3 +13,7 @@ pandas<br>
 numpy<br>
 sklearn<br>
 plotly<br>
+
+# Reading
+
+Godin, F., Vandersmissen, B., De Neve, W., & Van de Walle, R. (2015). Multimedia Lab @ ACL W-NUT NER shared task: Named entity recognition for Twitter microposts using distributed word representations. Workshop on Noisy User-generated Text, ACL 2015.
