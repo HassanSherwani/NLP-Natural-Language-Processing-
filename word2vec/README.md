@@ -1,4 +1,4 @@
-# Tweet Similarity
+# Problem statement
 
 Aim of this study is to find how similar are multiple documents.By documents, we mean tweets.We will use word-to-vector method for this excercise.
 
