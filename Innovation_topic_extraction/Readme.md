@@ -20,6 +20,16 @@ spacy<br>
 
 # Results
 
-From our analysis, we have found 8 most optimal topics which are Plug-in Modules/ automotive connectors,fuel cell technology,Automotive Disk Brake,exhaust gas recirculation (EGR) system,Battery management system ,electronic security system in vehicles,Engine Emission Control,electric vehicle charging station.
+From our analysis, we have found 8 most optimal topics which are 
+
+### Label data
+- Topic 0:Plug-in Modules/ automotive connectors
+- Topic 1: Automotive Disk Brake
+- Topi 2: exhaust gas recirculation (EGR) system
+- Topic 3: Battery management system
+- Topic 4: electronic security system in vehicles
+- Topic 5: Engine Emission Control,
+- Topic 6: electric vehicle charging station
+- Topic 7:fuel cell technology
 
 In next excercise, we will see how we could determine if these topics and their given technologies are emerging, convergent, or saturdated technology. We will also use network analysis to predict path of technology change in next 5 years. Stay tunned !!!
