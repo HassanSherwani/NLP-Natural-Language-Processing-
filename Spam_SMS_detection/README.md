@@ -19,8 +19,8 @@ This is an end to end project that will keep NLP pipeline for text data in focus
 - 2.Cleaning Data: Using text preprocessing techniques (Lower casing, Punctuation removal,Stopwords removal,Frequent words removal,Rare words removal,Spelling correction,Tokenization,Stemming,Lemmatization)
 - 3.Basic Model: Applying Logistic classification model plus model evaluation
 - 4.Vectorize+Model:Performing different types of vectorization to check which one performs better four techniques for vectorization(Bag of words,TF-IDF,Word2Vec Embedding,Doc2Vec Embedding)
-- 5. Applying all four vectorize techniques with multiple machine learning algorithms to choose best tested model
-- 6. Applying recurrent neural network for text classification by using keras and tensorflow
+- 5.Applying all four vectorize techniques with multiple machine learning algorithms to choose best tested model
+- 6.Applying recurrent neural network for text classification by using keras and tensorflow
 
 
 # Modules
