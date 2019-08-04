@@ -2,6 +2,17 @@
 
 ELI5 is a Python library which allows to visualize and debug various Machine Learning models using unified API. It has built-in support for several ML frameworks and provides a way to explain black-box models.
 
+# Problem statement
+
+We'll be analyzing Amazon products reviews. We took a sample of 100k grocery reviews. The prepared zipped .csv file can be found at following
+
+https://drive.google.com/file/d/1fUSV3GrFzKkpY7tvbp3-tNHqb-Veo4xY/view
+
+thanks to mlcourse.ai courses
+
+# Modules
+
+pandas,numpy,seaborn,matplotlib,nltk,sklearn, & eli5
 
 # References
 
