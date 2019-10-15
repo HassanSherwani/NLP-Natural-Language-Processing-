@@ -4,6 +4,10 @@ Natural language processing (NLP) is the ability of a computer program to unders
 
 This repository contains Ipython notebooks and datasets for the projects related to NLP.
 
+# Content
+
 # Modules
 
 pandas , numpy , seaborn matplotlib, nltk , re , sklearn, gensim , spacy , keras , tensorflow, pytorch.
+
+# References
