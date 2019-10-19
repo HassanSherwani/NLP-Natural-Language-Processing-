@@ -8,6 +8,6 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 # Modules
 
-pandas , numpy , seaborn matplotlib, nltk , re , sklearn, gensim , spacy , keras , tensorflow, pytorch.
+pandas , numpy , seaborn matplotlib, nltk , re , sklearn, gensim , spacy , keras , tensorflow, pytorch,eli5.
 
 # References
