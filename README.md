@@ -15,3 +15,5 @@ pandas , numpy , seaborn matplotlib, nltk , re , sklearn, gensim , spacy , keras
 # References
 
 - PyTorch: https://pytorch.org/tutorials/
+- Spacy: https://nlpforhackers.io/complete-guide-to-spacy/
+- 
