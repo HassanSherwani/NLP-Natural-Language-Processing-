@@ -16,4 +16,7 @@ pandas , numpy , seaborn matplotlib, nltk , re , sklearn, gensim , spacy , keras
 
 - PyTorch: https://pytorch.org/tutorials/
 - Spacy: https://nlpforhackers.io/complete-guide-to-spacy/
-- 
+
+# Credit
+
+Sentdex, Siraj Raval, medium, udemy,udacity, coursera, Vidya Analytics, Alice Zhou and many more online blogs and courses that help me in learning concepts and ideas.
