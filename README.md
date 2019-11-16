@@ -10,12 +10,12 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 # Modules
 
-For data processing : pandas, numpy, eli5
-For visualization : matplotlib, seaborn , plotly, TabPy
-For machine learning : sklearn, SciPy
-Web Scrapping : Beautifulsoup, Urllib , Scrapy
-For text mining : spacy, nltk,re, TextBlob, Gensim
-For deep learning : pytorch, tensorflow, keras
+For data processing : pandas, numpy, eli5 <br>
+For visualization : matplotlib, seaborn , plotly, TabPy <br>
+For machine learning : sklearn, SciPy <br>
+Web Scrapping : Beautifulsoup, Urllib , Scrapy <br>
+For text mining : spacy, nltk,re, TextBlob, Gensim <br>
+For deep learning : pytorch, tensorflow, keras <br>
 
 # References
 
