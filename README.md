@@ -8,6 +8,8 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 1)-AI- Chatbot
 
+- 2)- Sentiment Analysis for emerging technology of Autonomous vehicle using Crowd Flower dataset
+
 # Modules
 
 For data processing : pandas, numpy, eli5 <br>
