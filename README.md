@@ -12,6 +12,8 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 3)- Resturant Customer Review analysis
 
+- 4)- Indian Demonetization Opinion Analysis using social media dataset
+
 # Modules
 
 For data processing : pandas, numpy, eli5 <br>
