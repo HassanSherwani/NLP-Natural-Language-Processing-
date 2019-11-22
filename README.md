@@ -25,8 +25,11 @@ For deep learning : pytorch, tensorflow, keras <br>
 
 # References
 
-- PyTorch: https://pytorch.org/tutorials/
+- PyTorch: https://pytorch.org/tutorials/ <br>
 - Spacy: https://nlpforhackers.io/complete-guide-to-spacy/
+- Gensim: https://pypi.org/project/gensim/
+- Text BLob: https://textblob.readthedocs.io/en/dev/
+- NLTK : https://www.nltk.org/
 
 # Credit
 
