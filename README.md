@@ -33,4 +33,4 @@ For deep learning : pytorch, tensorflow, keras <br>
 
 # Credit
 
-Sentdex, Siraj Raval, medium, udemy,udacity, coursera, Vidya Analytics, Alice Zhou and many more online blogs and courses that help me in learning concepts and ideas.
+Sentdex, Siraj Raval,Explosion YouTube channels, medium, udemy,udacity, coursera, Vidya Analytics, Alice Zhou's blog and many more online blogs and courses that help me in learning concepts and ideas.
