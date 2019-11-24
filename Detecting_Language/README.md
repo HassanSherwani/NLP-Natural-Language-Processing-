@@ -8,5 +8,5 @@ https://www.kaggle.com/stackoverflow/stacksample
 
 # Credit:
 
-- https://spacy.io/usage/linguistic-features
-- https://github.com/koaning/spacy-youtube-material
+- Spacy Documentation:https://spacy.io/usage/linguistic-features
+- Explosion:https://github.com/koaning/spacy-youtube-material
