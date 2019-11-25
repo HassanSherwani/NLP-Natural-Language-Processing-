@@ -30,6 +30,8 @@ For deep learning : pytorch, tensorflow, keras <br>
 - Gensim: https://pypi.org/project/gensim/
 - Text BLob: https://textblob.readthedocs.io/en/dev/
 - NLTK : https://www.nltk.org/
+- Spacy Documentation:https://spacy.io/usage/linguistic-features
+- Explosion:https://github.com/koaning/spacy-youtube-material
 
 # Credit
 
