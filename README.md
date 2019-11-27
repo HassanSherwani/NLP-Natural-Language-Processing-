@@ -38,6 +38,19 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - Sentiment Analysis
 
+- Spam SMS Detection
+
+- Basics of text analytics using Spacy
+
+- Text classification in innovation studies
+
+- Text generation
+
+- Understanding sentiment analysis concept with code+theory
+
+- Pytorch tutorials
+
+- Word2Vec for word embeddings application
 
 
 # Modules
