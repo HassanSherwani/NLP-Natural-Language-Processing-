@@ -16,7 +16,29 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 5)- Detecting Programming Languages using Rule based method
 
-- 
+- Document Similarity using NLP
+
+- Understanding Eli5 library in Python
+
+- Ecosystem using NLP
+
+- Detecting Fake news 
+
+- Hate speech identification 
+
+- Innovation related topic extraction
+
+- Label extraction using newspaper dataset
+
+- Working with NIPS dataset
+
+- Neural Machine Translation
+
+- Opinion Mining
+
+- Sentiment Analysis
+
+
 
 # Modules
 
