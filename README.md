@@ -67,12 +67,17 @@ For deep learning : pytorch, tensorflow, keras <br>
 # References
 
 - PyTorch: https://pytorch.org/tutorials/ <br>
+- https://keras.io/layers/embeddings/
+- https://keras.io/preprocessing/text/
 - Spacy: https://nlpforhackers.io/complete-guide-to-spacy/
 - Gensim: https://pypi.org/project/gensim/
 - Text BLob: https://textblob.readthedocs.io/en/dev/
 - NLTK : https://www.nltk.org/
 - Spacy Documentation:https://spacy.io/usage/linguistic-features
 - Explosion:https://github.com/koaning/spacy-youtube-material
+- PyData 2018: Gilbert Francois Talk
+- https://buhrmann.github.io/sklearn-pipelines.html
+
 
 # Credit
 
