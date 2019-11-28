@@ -8,6 +8,8 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 1)-AI- Chatbot using simple NLP concepts
 
+- Auto-Tagging for single and multi-label classes
+
 - 2)- Sentiment Analysis for emerging technology of Autonomous vehicle using Crowd Flower dataset
 
 - 3)- Resturant Customer Review analysis
