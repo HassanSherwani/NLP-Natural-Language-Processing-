@@ -6,17 +6,17 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 # Content
 
-- 1)-AI- Chatbot using simple NLP concepts
+- 1)- AI- Chatbot using simple NLP concepts
 
-- Auto-Tagging for single and multi-label classes
+- 2)- Auto-Tagging for single and multi-label classes
 
-- 2)- Sentiment Analysis for emerging technology of Autonomous vehicle using Crowd Flower dataset
+- 3)- Sentiment Analysis for emerging technology of Autonomous vehicle using Crowd Flower dataset
 
-- 3)- Resturant Customer Review analysis
+- 4)- Resturant Customer Review analysis
 
-- 4)- Indian Demonetization Opinion Analysis using social media dataset
+- 5)- Indian Demonetization Opinion Analysis using social media dataset
 
-- 5)- Detecting Programming Languages using Rule based method
+- 6)- Detecting Programming Languages using Rule based method
 
 - Document Similarity using NLP
 
