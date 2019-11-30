@@ -18,7 +18,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 6)- Detecting Programming Languages using Rule based method
 
-- Document Similarity using NLP
+- 7)- Document Similarity using NLP
 
 - Understanding Eli5 library in Python
 
