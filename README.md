@@ -20,41 +20,41 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 7)- Document Similarity using NLP
 
-- Understanding Eli5 library in Python
+- 7)- Understanding Eli5 library in Python
 
-- Ecosystem using NLP
+- 8)- Ecosystem using NLP
 
-- Detecting Fake news 
+- 9)-Detecting Fake news 
 
-- Hate speech identification 
+- 10)Hate speech identification 
 
-- Innovation related topic extraction
+- 11)Innovation related topic extraction
 
-- Label extraction using newspaper dataset
+- 12)Label extraction using newspaper dataset
 
-- Working with NIPS dataset
+- 13)Working with NIPS dataset
 
-- Neural Machine Translation
+- 14)Neural Machine Translation
 
-- Opinion Mining
+- 15)Opinion Mining
 
-- Sentiment Analysis
+- 16)Sentiment Analysis
 
-- Spam SMS Detection
+- 17)- Spam SMS Detection
 
-- Basics of text analytics using Spacy
+- 18)- Basics of text analytics using Spacy
 
-- Text classification in innovation studies
+- 19)Text classification in innovation studies
 
-- Text generation
+- 20)Text generation
 
-- Tutorials of Spacy library
+- 21)Tutorials of Spacy library
 
-- Understanding sentiment analysis concept with code+theory
+- 22)Understanding sentiment analysis concept with code+theory
 
-- Pytorch tutorials
+- 23)Pytorch tutorials
 
-- Word2Vec for word embeddings application
+- 24)Word2Vec for word embeddings application
 
 
 # Modules
