@@ -48,6 +48,8 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - Text generation
 
+- Tutorials of Spacy library
+
 - Understanding sentiment analysis concept with code+theory
 
 - Pytorch tutorials
