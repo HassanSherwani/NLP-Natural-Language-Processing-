@@ -20,7 +20,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 7)- Document Similarity using NLP
 
-- 7)- Understanding Eli5 library in Python
+- 8)- Understanding Eli5 library in Python
 
 - 8)- Ecosystem using NLP
 
