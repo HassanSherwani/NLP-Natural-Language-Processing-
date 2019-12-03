@@ -22,9 +22,9 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 8)- Understanding Eli5 library in Python
 
-- 8)- Ecosystem using NLP
+- 9)- Ecosystem using NLP
 
-- 9)-Detecting Fake news 
+- 9)- Detecting Fake news 
 
 - 10)Hate speech identification 
 
