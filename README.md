@@ -24,7 +24,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 9)- Ecosystem using NLP
 
-- 9)- Detecting Fake news 
+- 10)- Detecting Fake news 
 
 - 10)Hate speech identification 
 
