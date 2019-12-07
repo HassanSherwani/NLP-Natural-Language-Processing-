@@ -26,7 +26,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 10)- Detecting Fake news 
 
-- 10)Hate speech identification 
+- 11)- Hate speech identification 
 
 - 11)Innovation related topic extraction
 
