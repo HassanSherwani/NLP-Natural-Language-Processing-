@@ -28,7 +28,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 11)- Hate speech identification 
 
-- 11)Innovation related topic extraction
+- 12)- Innovation related topic extraction
 
 - 12)Label extraction using newspaper dataset
 
