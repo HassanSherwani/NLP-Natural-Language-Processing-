@@ -30,7 +30,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 12)- Innovation related topic extraction
 
-- 12)Label extraction using newspaper dataset
+- 13)- Label extraction using newspaper dataset
 
 - 13)Working with NIPS dataset
 
