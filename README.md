@@ -32,7 +32,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 13)- Label extraction using newspaper dataset
 
-- 13)Working with NIPS dataset
+- 14)- Working with NIPS dataset
 
 - 14)Neural Machine Translation
 
