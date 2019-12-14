@@ -34,7 +34,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 14)- Working with NIPS dataset
 
-- 14)Neural Machine Translation
+- 15)- Neural Machine Translation
 
 - 15)Opinion Mining
 
