@@ -36,7 +36,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 15)- Neural Machine Translation
 
-- 15)Opinion Mining
+- 16)- Opinion Mining
 
 - 16)Sentiment Analysis
 
