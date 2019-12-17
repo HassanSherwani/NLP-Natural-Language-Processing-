@@ -2,6 +2,12 @@
 
 Extracting keywords from text document by applying TF-IDF method.
 
+# Content
+
+Notebook1:
+Notebook2:
+Notebook3:
+
 # TF-IDF
 
 TF-IDF stands for term frequency–inverse document frequency, a formula that measures how important a word is to a document in a collection of documents.
