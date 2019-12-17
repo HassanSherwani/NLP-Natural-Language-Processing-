@@ -36,6 +36,12 @@ https://www.kaggle.com/benhamner/nips-papers/data
 
 - https://www.kaggle.com/akhatova/extract-keywords
 
+- Text Rank: https://boudinfl.github.io/pke/build/html/unsupervised.html#textrank
+
+- Single Rank: https://boudinfl.github.io/pke/build/html/unsupervised.html#singlerank
+
+- Topic Rank: https://boudinfl.github.io/pke/build/html/unsupervised.html#topicrank
+
 - For yake: https://github.com/LIAAD/yake
 
 - gensim summarization: https://radimrehurek.com/gensim/summarization/keywords.html
