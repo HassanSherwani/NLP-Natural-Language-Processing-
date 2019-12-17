@@ -35,3 +35,9 @@ https://www.kaggle.com/benhamner/nips-papers/data
 - https://kavita-ganesan.com/extracting-keywords-from-text-tfidf/#.XfdsYZNKjUI
 
 - https://www.kaggle.com/akhatova/extract-keywords
+
+- For yake: https://github.com/LIAAD/yake
+
+- gensim summarization: https://radimrehurek.com/gensim/summarization/keywords.html
+
+- gensim tutorial: https://rare-technologies.com/text-summarization-with-gensim/
