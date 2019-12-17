@@ -27,3 +27,5 @@ https://www.kaggle.com/benhamner/nips-papers/data
 - https://medium.com/analytics-vidhya/automated-keyword-extraction-from-articles-using-nlp-bfd864f41b34
 
 - https://kavita-ganesan.com/extracting-keywords-from-text-tfidf/#.XfdsYZNKjUI
+
+- https://www.kaggle.com/akhatova/extract-keywords
