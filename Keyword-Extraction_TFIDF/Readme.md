@@ -4,9 +4,9 @@ Extracting keywords from text document by applying TF-IDF method.
 
 # Content
 
-Notebook1:
-Notebook2:
-Notebook3:
+- Notebook1: using bag of word + TFIDF
+- Notebook2: applying tfidf and getting results evaluated titles, abstract, main text.
+- Notebook3: Keeping TFIDF as main method but, Other techniques such as gensim TextRank summarization,RAKE(Rapid Automatic Keyword Extraction) ,Yet Another Keyword Extractor (Yake) ,python-based keyphrase extraction (pke), were explored.
 
 # TF-IDF
 
