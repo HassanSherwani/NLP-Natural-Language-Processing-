@@ -32,6 +32,8 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 12)- Innovation related topic extraction
 
+- Keyword extraction using TF-IDF
+
 - 13)- Label extraction using newspaper dataset
 
 - 14)- Working with NIPS dataset
