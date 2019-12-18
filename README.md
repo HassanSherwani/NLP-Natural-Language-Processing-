@@ -56,8 +56,6 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 20)Text generation
 
-- 21)Tutorials of Spacy library
-
 - 22)Understanding sentiment analysis concept with code+theory
 
 - 23)Pytorch tutorials
@@ -70,7 +68,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 For data processing : pandas, numpy, eli5 <br>
 For visualization : matplotlib, seaborn , plotly, TabPy <br>
 For machine learning : sklearn, SciPy <br>
-Web Scrapping : Beautifulsoup, Urllib , Scrapy <br>
+Web Scrapping : Beautifulsoup, Urllib , Scrapy,pdfminer,PyPDF2 <br>
 For text mining : spacy, nltk,re, TextBlob, Gensim <br>
 For deep learning : pytorch, tensorflow, keras <br>
 
