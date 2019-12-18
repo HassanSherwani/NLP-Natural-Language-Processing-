@@ -10,6 +10,8 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 2)- Auto-Tagging for single and multi-label classes
 
+- Binary Classifier
+
 - 3)- Sentiment Analysis for emerging technology of Autonomous vehicle using Crowd Flower dataset
 
 - 4)- Resturant Customer Review analysis
