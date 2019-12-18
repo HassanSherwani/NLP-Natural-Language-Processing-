@@ -48,6 +48,8 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 17)- Spam SMS Detection
 
+- Text parsing for PDF files
+
 - 18)- Basics of text analytics using Spacy
 
 - 19)Text classification in innovation studies
