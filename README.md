@@ -34,7 +34,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 13)- Keyword extraction using TF-IDF
 
-- 13)- Label extraction using newspaper dataset
+- 14)- Label extraction using newspaper dataset
 
 - 14)- Working with NIPS dataset
 
