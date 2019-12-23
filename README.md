@@ -36,13 +36,13 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 14)- Label extraction using newspaper dataset
 
-- 14)- Working with NIPS dataset
+- 15)- Working with NIPS dataset
 
-- 15)- Neural Machine Translation
+- 16)- Neural Machine Translation
 
-- 16)- Opinion Mining
+- 17)- Opinion Mining
 
-- 16)Sentiment Analysis
+- 18)- Sentiment Analysis
 
 - Spacy Tutorial
 
