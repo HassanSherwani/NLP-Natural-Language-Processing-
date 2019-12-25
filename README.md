@@ -10,57 +10,57 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 2)- Auto-Tagging for single and multi-label classes
 
-- Binary Classifier
+- 3)- Binary Classifier
 
-- 3)- Sentiment Analysis for emerging technology of Autonomous vehicle using Crowd Flower dataset
+- 4)- Sentiment Analysis for emerging technology of Autonomous vehicle using Crowd Flower dataset
 
-- 4)- Resturant Customer Review analysis
+- 5)- Resturant Customer Review analysis
 
-- 5)- Indian Demonetization Opinion Analysis using social media dataset
+- 6)- Indian Demonetization Opinion Analysis using social media dataset
 
-- 6)- Detecting Programming Languages using Rule based method
+- 7)- Detecting Programming Languages using Rule based method
 
-- 7)- Document Similarity using NLP
+- 8)- Document Similarity using NLP
 
-- 8)- Understanding Eli5 library in Python
+- 9)- Understanding Eli5 library in Python
 
-- 9)- Ecosystem using NLP
+- 10)- Ecosystem using NLP
 
-- 10)- Detecting Fake news 
+- 11)- Detecting Fake news 
 
-- 11)- Hate speech identification 
+- 12)- Hate speech identification 
 
-- 12)- Innovation related topic extraction
+- 13)- Innovation related topic extraction
 
-- 13)- Keyword extraction using TF-IDF
+- 14)- Keyword extraction using TF-IDF
 
-- 14)- Label extraction using newspaper dataset
+- 15)- Label extraction using newspaper dataset
 
-- 15)- Working with NIPS dataset
+- 16)- Working with NIPS dataset
 
-- 16)- Neural Machine Translation
+- 17)- Neural Machine Translation
 
-- 17)- Opinion Mining
+- 18)- Opinion Mining
 
-- 18)- Sentiment Analysis
+- 19)- Sentiment Analysis
 
 - Spacy Tutorial
 
-- 17)- Spam SMS Detection
+- 20)- Spam SMS Detection
 
-- Text parsing for PDF files
+- 21)- Text parsing for PDF files
 
-- 18)- Basics of text analytics using Spacy
+- 22)- Basics of text analytics using Spacy
 
-- 19)Text classification in innovation studies
+- 23)Text classification in innovation studies
 
-- 20)Text generation
+- 24)Text generation
 
-- 22)Understanding sentiment analysis concept with code+theory
+- 25)Understanding sentiment analysis concept with code+theory
 
-- 23)Pytorch tutorials
+- 26)Pytorch tutorials
 
-- 24)Word2Vec for word embeddings application
+- 27)Word2Vec for word embeddings application
 
 
 # Modules
