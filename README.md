@@ -44,7 +44,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 19)- Sentiment Analysis
 
-- Spacy Tutorial
+- 20)- Spacy Tutorial
 
 - 20)- Spam SMS Detection
 
