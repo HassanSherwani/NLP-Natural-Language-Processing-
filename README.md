@@ -46,7 +46,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 20)- Spacy Tutorial
 
-- 20)- Spam SMS Detection
+- 21)- Spam SMS Detection
 
 - 21)- Text parsing for PDF files
 
