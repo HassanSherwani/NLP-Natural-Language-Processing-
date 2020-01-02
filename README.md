@@ -50,7 +50,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 22)- Text parsing for PDF files
 
-- 22)- Basics of text analytics using Spacy
+- 23)- Basics of text analytics using Spacy
 
 - 23)Text classification in innovation studies
 
