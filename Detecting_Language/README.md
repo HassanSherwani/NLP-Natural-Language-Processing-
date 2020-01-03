@@ -4,8 +4,9 @@ It is an implementation of Information retrival. I have taken "Go" as case langu
 
 # Content
 
-- Notebook 1 contains code while we are retrieving one programming language i.e go using text data
-- Notebook 2 contains code while we are using multi-token for programming language i.e Objective-C++ (there are 4 tokens). Also this notebook contains code for more than one programming language i.e ruby, python, c, js etc.
+- Notebook a contains code while we are retrieving one programming language i.e go using text data
+- Notebook b contains code while we are using multi-token for programming language i.e Objective-C++ (there are 4 tokens). Also this notebook contains code for more than one programming language i.e ruby, python, c, js etc.
+- Notebook c: Evaluating our matcher while using labelled dataset
 
 # Data
 
