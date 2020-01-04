@@ -12,7 +12,12 @@ It is an implementation of Information retrival. I have taken "Go" as case langu
 
 https://www.kaggle.com/stackoverflow/stacksample
 
+# Modules
+
+Spacy, re , pandas , string
+
 # Credit:
 
 - Spacy Documentation:https://spacy.io/usage/linguistic-features
 - Explosion:https://github.com/koaning/spacy-youtube-material
+- Data Lebeling: https://www.cloudfactory.com/data-labeling-guide
