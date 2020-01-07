@@ -54,7 +54,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 24)- Text classification in innovation studies
 
-- 24)Text generation
+- 25)- Text generation using LSTM
 
 - 25)Understanding sentiment analysis concept with code+theory
 
