@@ -56,7 +56,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 25)- Text generation using LSTM
 
-- 25)Understanding sentiment analysis concept with code+theory
+- 26)- Understanding sentiment analysis concept with code+theory
 
 - 26)Pytorch tutorials
 
