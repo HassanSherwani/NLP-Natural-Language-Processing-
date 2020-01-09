@@ -58,7 +58,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 26)- Understanding sentiment analysis concept with code+theory
 
-- 26)Pytorch tutorials
+- 27)- Pytorch tutorials
 
 - 27)Word2Vec for word embeddings application
 
