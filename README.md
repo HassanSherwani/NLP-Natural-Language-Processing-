@@ -60,7 +60,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 27)- Pytorch tutorials
 
-- 27)Word2Vec for word embeddings application
+- 28)- Word2Vec for word embeddings application
 
 
 # Modules
