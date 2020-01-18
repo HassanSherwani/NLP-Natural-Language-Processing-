@@ -3,7 +3,7 @@
 Analysis of sentiments coming from tweets. These tweets are related to self-driving vehicles. Instead of positive, negative analysis, I have chosen to define Beneficial/Risky as labeling feature.
 
 # Data Collection
-using aws
+Using aws Sagemaker Ground Truth tool, we labelled data as beneficial, risky, or neutral sentiments. 
 
 # Content
 
