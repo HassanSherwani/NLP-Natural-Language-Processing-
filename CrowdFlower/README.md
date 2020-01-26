@@ -7,7 +7,7 @@ Using aws Sagemaker Ground Truth tool, we labelled data as beneficial, risky, or
 
 # Content
 
-- Notebook1:
+- Notebook1: This notebook contains code for data labelling and data exploration.
 - Notebook2:
 - Notebook3:
 - Notebook4:
