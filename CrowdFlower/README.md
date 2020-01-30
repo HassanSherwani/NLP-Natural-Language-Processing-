@@ -9,7 +9,7 @@ Using aws Sagemaker Ground Truth tool, we labelled data as beneficial, risky, or
 
 - Notebook1: This notebook contains code for data labelling and data exploration.
 - Notebook2: Data cleaning for text data before feeding to model
-- Notebook3:
+- Notebook3: Implementing ML and DL models i.e Naive Bayes and RNN
 - Notebook4:
 - Notebook5:
 - Notebook6:
