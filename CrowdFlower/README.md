@@ -11,7 +11,7 @@ Using aws Sagemaker Ground Truth tool, we labelled data as beneficial, risky, or
 - Notebook2: Data cleaning for text data before feeding to model
 - Notebook3: Implementing ML and DL models i.e Naive Bayes and RNN
 - Notebook4: Building and evaluating ML model
-- Notebook5:
+- Notebook5: Descriptive analysis for model and results
 - Notebook6:
 
 # Modules
