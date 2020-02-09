@@ -16,4 +16,4 @@ Using aws Sagemaker Ground Truth tool, we labelled data as beneficial, risky, or
 
 # Modules
 
-pandas
+pandas, numpy
