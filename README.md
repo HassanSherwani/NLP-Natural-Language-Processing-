@@ -14,6 +14,8 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 4)- Sentiment Analysis for emerging technology of Autonomous vehicle using Crowd Flower dataset
 
+- 5)- Customized named entity recognition problem using rule based method
+
 - 5)- Resturant Customer Review analysis
 
 - 6)- Indian Demonetization Opinion Analysis using social media dataset
