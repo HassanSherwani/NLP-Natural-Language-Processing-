@@ -40,6 +40,8 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 17)- Neural Machine Translation
 
+- 18)- Named Entity Recognition for PDF format documents
+
 - 18)- Opinion Mining
 
 - 19)- Sentiment Analysis
