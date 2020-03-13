@@ -7,9 +7,11 @@ To create customized Entity Ruler pipelines to extract information
 
 # Content
 
-- Notebook11: It extracts customized entities using entityrulerpipeline() method.
+- Custom_NER1: Using EntityRuler() for each entity
 
 # Modules
+
+Spacy, pandas
 
 # References
 
