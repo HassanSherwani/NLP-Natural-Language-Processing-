@@ -75,6 +75,7 @@ For machine learning : sklearn, SciPy <br>
 Web Scrapping : Beautifulsoup, Urllib , Scrapy,pdfminer,PyPDF2 <br>
 For text mining : spacy, nltk,re, TextBlob, Gensim <br>
 For deep learning : pytorch, tensorflow, keras <br>
+For named Entity: Spacy, TextRank, Displacy, Flair
 
 # References
 
