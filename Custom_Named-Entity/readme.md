@@ -9,9 +9,13 @@ To create customized Entity Ruler pipelines to extract information
 
 - Custom_NER1: Using EntityRuler() for each entity
 
+
+- Custom_ner_kaggle: Implementing Named Entity Recognition Using Kaggle Sentiment Analysis dataset 
+https://www.kaggle.com/davidg089/all-djtrum-tweets
+
 # Modules
 
-Spacy, pandas
+Spacy, pandas,numpy
 
 # References
 
