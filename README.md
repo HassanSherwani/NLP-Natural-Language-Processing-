@@ -28,43 +28,45 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 11)- Ecosystem using NLP
 
-- 12)- Detecting Fake news 
+- 12)- Entity Extraction from raw text using flair
 
-- 13)- Hate speech identification 
+- 13)- Detecting Fake news 
 
-- 14)- Innovation related topic extraction
+- 14)- Hate speech identification 
 
-- 15)- Keyword extraction using TF-IDF
+- 15)- Innovation related topic extraction
 
-- 16)- Label extraction using newspaper dataset
+- 16)- Keyword extraction using TF-IDF
 
-- 17)- Working with NIPS dataset
+- 17)- Label extraction using newspaper dataset
 
-- 18)- Neural Machine Translation
+- 18)- Working with NIPS dataset
 
-- 19)- Named Entity Recognition for PDF format documents
+- 19)- Neural Machine Translation
 
-- 20)- Opinion Mining
+- 20)- Named Entity Recognition for PDF format documents
 
-- 21)- Sentiment Analysis
+- 21)- Opinion Mining
 
-- 22)- Spacy Tutorial
+- 22)- Sentiment Analysis
 
-- 23)- Spam SMS Detection
+- 23)- Spacy Tutorial
 
-- 24)- Text parsing for PDF files
+- 24)- Spam SMS Detection
 
-- 25)- Basics of text analytics using Spacy
+- 25)- Text parsing for PDF files
 
-- 26)- Text classification in innovation studies
+- 26)- Basics of text analytics using Spacy
 
-- 27)- Text generation using LSTM
+- 27)- Text classification in innovation studies
 
-- 28)- Understanding sentiment analysis concept with code+theory
+- 28)- Text generation using LSTM
 
-- 29)- Pytorch tutorials
+- 29)- Understanding sentiment analysis concept with code+theory
 
-- 30)- Word2Vec for word embeddings application
+- 30)- Pytorch tutorials
+
+- 31)- Word2Vec for word embeddings application
 
 
 # Modules
@@ -84,6 +86,7 @@ For named Entity: Spacy, TextRank, Displacy, Flair
 - Attention model wrapper: https://github.com/neonbjb/ml-notebooks/blob/master/keras-seq2seq-with-attention/keras_translate_notebook.ipynb
 - Eng-Fr: https://medium.com/@dev.elect.iitd/neural-machine-translation-using-word-level-seq2seq-model-47538cba8cd7
 - PyTorch: https://pytorch.org/tutorials/ <br>
+- Flair: https://research.zalando.com/welcome/mission/research-projects/flair-nlp/
 - https://keras.io/layers/embeddings/
 - https://keras.io/preprocessing/text/
 - Spacy: https://nlpforhackers.io/complete-guide-to-spacy/
