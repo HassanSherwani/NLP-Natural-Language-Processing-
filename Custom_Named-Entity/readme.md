@@ -30,4 +30,9 @@ Spacy, pandas,numpy
 
 
 - https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy/data
+- https://support.prodi.gy/t/accessing-probabilities-in-ner/94
+- https://www.kaggle.com/davidg089/all-djtrum-tweets
+- https://spacy.io/usage/rule-based-matching
+- https://spacy.io/usage/examples
+- Multiple Rulers: https://stackoverflow.com/questions/57536044/add-multiple-entityruler-with-spacy-valueerror-entity-ruler-already-exists-i
 
