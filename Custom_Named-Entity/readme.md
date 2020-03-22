@@ -2,15 +2,11 @@
 
 We aim to extract key information from text data. Information is in form of entities.
 
-# Solution
-
-For this, we need to create customized Entity Ruler pipelines using pre-trained Spacy model
+For this, we need to create customized Entity Ruler pipelines using pre-trained Spacy model.
 
 # Results
 
 We have used visualization for showing outcome of our model by using Displacy. 
-
-# Evaluation
 
 For evaluating our mode, we have used beam confidence score.
 
