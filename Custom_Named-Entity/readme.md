@@ -1,9 +1,18 @@
 # Problem Statement
 
-To create customized Entity Ruler pipelines to extract information
+We aim to extract key information from text data. Information is in form of entities.
 
-- Results : We have used visualization for showing outcome of our model by using Displacy. 
-- Evaluation : For evaluating our mode, we have used beam confidence score.
+# Solution
+
+For this, we need to create customized Entity Ruler pipelines using pre-trained Spacy model
+
+# Results
+
+We have used visualization for showing outcome of our model by using Displacy. 
+
+# Evaluation
+
+For evaluating our mode, we have used beam confidence score.
 
 # Content
 
@@ -19,4 +28,6 @@ Spacy, pandas,numpy
 
 # References
 
+
+- https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy/data
 
