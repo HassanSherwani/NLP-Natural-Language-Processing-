@@ -22,7 +22,7 @@ https://www.kaggle.com/davidg089/all-djtrum-tweets
 
 - Confidence Score 1 : Confidence Score for Entities using default Spacy + beam search algorithm.
 - Confidence Score 2 : For Customized Entities using beam search algorithm.
-- Confidence Score 3 :
+- Confidence Score 3 : For Customized Entities with better labelling list and hence, improved results
 
 
 # Modules
