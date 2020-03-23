@@ -12,14 +12,18 @@ For evaluating our mode, we have used beam confidence score.
 
 # Content
 
-- Custom_NER1 : Using EntityRuler() for each entity
+- Custom_NER1 : Using EntityRuler() for each entity.
 - Custom_NER2 : Using rulerAll() method covering each entity.
-- Custom_NER3 : Creating table with Entity Class and Entity Type
-- Custom_NER4 : Add custom colors and Visualization
-Confidence Score for Entities using default Spacy + beam search algorithm
-
-- Custom_ner_kaggle : Implementing Named Entity Recognition Using Kaggle Sentiment Analysis dataset 
+- Custom_NER3 : Creating table with Entity Class and Entity Type.
+- Custom_NER4 : Add custom colors and Visualization.
+- Custom_ner_kaggle : Implementing Named Entity Recognition Using Kaggle Sentiment Analysis dataset. 
 https://www.kaggle.com/davidg089/all-djtrum-tweets
+
+
+- Confidence Score 1 : Confidence Score for Entities using default Spacy + beam search algorithm.
+- Confidence Score 2 : For Customized Entities using beam search algorithm.
+- Confidence Score 3 :
+
 
 # Modules
 
