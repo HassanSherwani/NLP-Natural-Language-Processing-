@@ -16,6 +16,7 @@ For evaluating our mode, we have used beam confidence score.
 - Custom_NER2 : Using rulerAll() method covering each entity.
 - Custom_NER3 : Creating table with Entity Class and Entity Type.
 - Custom_NER4 : Add custom colors and Visualization.
+Training on customized entities using Spacy's pre-trained model
 - Custom_ner_kaggle : Implementing Named Entity Recognition Using Kaggle Sentiment Analysis dataset. 
 https://www.kaggle.com/davidg089/all-djtrum-tweets
 
