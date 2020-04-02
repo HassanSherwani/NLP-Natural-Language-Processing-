@@ -84,6 +84,7 @@ For named Entity: Spacy, TextRank, Displacy, Flair
 - Attention: https://medium.com/datalogue/attention-in-keras-1892773a4f22
 - Attention-model: Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. In Advances in neural information processing systems (pp. 5998-6008).
 - Attention model wrapper: https://github.com/neonbjb/ml-notebooks/blob/master/keras-seq2seq-with-attention/keras_translate_notebook.ipynb
+- Beam Search Spacy: https://support.prodi.gy/t/accessing-probabilities-in-ner/94/2
 - Eng-Fr: https://medium.com/@dev.elect.iitd/neural-machine-translation-using-word-level-seq2seq-model-47538cba8cd7
 - PyTorch: https://pytorch.org/tutorials/ <br>
 - Flair: https://research.zalando.com/welcome/mission/research-projects/flair-nlp/
