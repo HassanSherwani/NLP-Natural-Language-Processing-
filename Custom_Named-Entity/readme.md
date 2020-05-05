@@ -31,6 +31,10 @@ https://www.kaggle.com/davidg089/all-djtrum-tweets
 
 Spacy, pandas,numpy
 
+- to use small, medium, large nlp model from space, use
+
+pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.0.0/en_core_web_lg-2.0.0.tar.gz
+
 # References
 
 
