@@ -10,23 +10,23 @@
          "context_set": ""
         },
         {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
+         "patterns": ['how old', 'how old is Hassan', 'what is your age', 'how old are you', 'age please?'],
+         "responses": ["I am 32 years old!", "32 years young!"],
          "context_set": ""
         },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "responses": ["You can call me Hassan.", "I'm Hassan!", "I'm Hassan Sherwani.You may call me Hassan."],
          "context_set": ""
         },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+        {"tag": "profession",
+         "patterns": ['Id like to get some information about you', 'what is your profession', 'what do you do for work?', 'Could I know what is your field?'],
+         "responses": ['I am PhD student at Erasmus school of management', 'I am third year PhD student at RSM. My research focus is on Natural Language Processing'],
          "context_set": ""
         },
         {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "patterns": ['when are you available for discussion?', 'what are your office hours', 'hours of work'],
+         "responses": ['I am available from 10-12 every Thursday.', 'I am in office from 10-12 every Thursday. Room is T09-7'],
          "context_set": ""
         }
    ]
