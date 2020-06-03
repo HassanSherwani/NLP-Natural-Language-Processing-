@@ -10,7 +10,7 @@
          "context_set": ""
         },
         {"tag": "age",
-         "patterns": ['how old', 'how old is Hassan', 'what is your age', 'how old are you', 'age please?'],
+         "patterns": ["how old", "how old is Hassan", "what is your age", "how old are you", "age please?"],
          "responses": ["I am 32 years old!", "32 years young!"],
          "context_set": ""
         },
