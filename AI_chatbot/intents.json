@@ -20,13 +20,13 @@
          "context_set": ""
         },
         {"tag": "profession",
-         "patterns": ['Id like to get some information about you', 'what is your profession', 'what do you do for work?', 'Could I know what is your field?'],
-         "responses": ['I am PhD student at Erasmus school of management', 'I am third year PhD student at RSM. My research focus is on Natural Language Processing'],
+         "patterns": ["Id like to get some information about you", "what is your profession", "what do you do for work?", "Could I know what is your field?"],
+         "responses": ["I am PhD student at Erasmus school of management", "I am third year PhD student at RSM. My research focus is on Natural Language Processing"],
          "context_set": ""
         },
         {"tag": "hours",
-         "patterns": ['when are you available for discussion?', 'what are your office hours', 'hours of work'],
-         "responses": ['I am available from 10-12 every Thursday.', 'I am in office from 10-12 every Thursday. Room is T09-7'],
+         "patterns": ["when are you available for discussion?", "what are your office hours", "hours of work"],
+         "responses": ["I am available from 10-12 every Thursday.", "I am in office from 10-12 every Thursday. Room is T09-7"],
          "context_set": ""
         }
    ]
