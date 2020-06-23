@@ -55,6 +55,7 @@ https://docs.npmjs.com/downloading-and-installing-node-js-and-npm (For nodejs an
 ```bash
 npm i -g rasa-nlu-trainer
 ```
+(Only if we are working with Rasa environment)
 ### install other packages
 ```bash
 pip install <name>
