@@ -71,7 +71,15 @@ Print(tf.__version__)
  pip show <name>
  ```
   
+  ### To make a requirements.txt file
+  ```bash
+  pip freeze > requirements.txt
+```
 
+### To run requirements.txt 
+ ```bash
+pip install -r requirements.txt
+```
 ### References
 
 - Jeff Heaton : https://www.youtube.com/watch?v=RgO8BBNGB8w&t=352s
