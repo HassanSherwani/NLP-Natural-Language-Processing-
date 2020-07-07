@@ -16,3 +16,9 @@ pip install -r requirements.txt
 
 !["User Interface"](images/3.png)
 
+
+
+# References
+
+- https://chatterbot.readthedocs.io/en/stable/
+- https://studygyaan.com/uncategorised/create-web-based-chatbot-in-python-django-flask
