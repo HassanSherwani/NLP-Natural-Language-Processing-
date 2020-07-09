@@ -6,67 +6,77 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 # Content
 
-- 1)- AI- Chatbot using simple NLP concepts
+- 0)- Guide to setup virtual environment in python. 
 
-- 2)- Auto-Tagging for single and multi-label classes
+- 1)- AI- Chatbot using tensoflow.
 
-- 3)- Binary Classifier
+- 2)- Auto-Tagging for single and multi-label classes.
 
-- 4)- Sentiment Analysis for emerging technology of Autonomous vehicle using Crowd Flower dataset
+- 3)- Binary Classifier.
 
-- 5)- Customized named entity recognition problem using rule based method
+- 4)- CoronaVirus Chatbot using Chatterbot package.
 
-- 6)- Resturant Customer Review analysis
+- 5)- Crowd Flower dataset for sentiment analsis.
 
-- 7)- Indian Demonetization Opinion Analysis using social media dataset
+- 6)- Customized named entity recognition problem using rule based method.
 
-- 8)- Detecting Programming Languages using Rule based method
+- 7)- Resturant Customer Review analysis.
 
-- 9)- Document Similarity using NLP
+- 8)- Data building for standard datasets.
 
-- 10)- Understanding Eli5 library in Python
+- 9)- Indian Demonetization Opinion Analysis. 
 
-- 11)- Ecosystem using NLP
+- 10)- Detecting Programming Languages using Rule based method.
 
-- 12)- Entity Extraction from raw text using flair
+- 11)- Document Similarity.
 
-- 13)- Detecting Fake news 
+- 12)- Understanding Eli5 library in Python.
 
-- 14)- Hate speech identification 
+- 13)- Ecosystem using NLP concepts.
 
-- 15)- Innovation related topic extraction
+- 14)- Entity Extraction from raw text using flair.
 
-- 16)- Keyword extraction using TF-IDF
+- 15)- Detecting Fake news.
 
-- 17)- Label extraction using newspaper dataset
+- 16)- Hate speech identification. 
 
-- 18)- Working with NIPS dataset
+- 17)- Innovation related topic extraction.
 
-- 19)- Neural Machine Translation
+- 18)- Keyword extraction using TF-IDF.
 
-- 20)- Named Entity Recognition for PDF format documents
+- 19)- Label extraction using newspaper dataset.
 
-- 21)- Opinion Mining
+- 20)- Multi-class classifier.
 
-- 22)- Sentiment Analysis
+- 21)- Working with NIPS dataset.
 
-- 23)- Spacy Tutorial
+- 22)- Extracted entities from a pdf format.
 
-- 24)- Spam SMS Detection
+- 23)- Neural Machine Translation.
 
-- 25)- Text parsing for PDF files
+- 24)- Opinion Mining
 
-- 26)- Basics of text analytics using Spacy
+- 25)- Rasa-NLU setup and basics
 
-- 27)- Text classification in innovation studies
+- 26)- Sentiment Analysis
 
-- 28)- Text generation using LSTM
+- 27)- Spacy Tutorial
 
-- 29)- Understanding sentiment analysis concept with code+theory
+- 28)- Spam SMS Detection
 
-- 30)- Pytorch tutorials
+- 29)- Text parsing for PDF files
 
-- 31)- Word2Vec for word embeddings application
+- 30)- Basics of text analytics using Spacy
+
+- 31)- Text classification in innovation prediction
+
+- 32)- Text generation using LSTM
+
+- 33)- Understanding sentiment analysis concept with code+theory
+
+- 34)- Pytorch tutorials
+
+- 35)- Word2Vec for word embeddings application
 
 
 # Modules
@@ -115,4 +125,4 @@ For named Entity: Spacy, TextRank, Displacy, Flair
 
 # Credit
 
-Sentdex, Siraj Raval,Explosion, medium, udemy,udacity, coursera, Vidya Analytics, Alice Zhou's blog and many more online blogs and courses that help me in learning concepts and ideas.
+Sentdex, Siraj Raval,Explosion, medium, udemy,udacity, coursera, Vidya Analytics, Alice Zhou's blog, rasa github, and many more online blogs and courses that help me in learning concepts and ideas.
