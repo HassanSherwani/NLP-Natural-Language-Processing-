@@ -25,11 +25,13 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
 from sklearn import metrics
 from sklearn.metrics import confusion_matrix
+
 #Load data
-data=pd.read_excel('data_3655_eng.xlsx')
-data=data.rename(columns={'Unnamed: 0':'random_columns'}) # a trick to tackle random index values
-data['text']= data['firstmessage'].str[:200]
-data=data.fillna('other')
+df_intent2=pd.read_excel('intent_5classes.xlsx')
+df_intent2=df_intent2.rename(columns={'Unnamed: 0':'random_columns'}) # a trick to tackle random index values
+df_intent2= df_intent2.drop('random_columns', axis=1)
+df_intent2['first_text']= df_intent2['first_text'].str[:300]
+
 #Data Cleaning
 contractions = {
 "ain't": "am not ",
@@ -168,7 +170,7 @@ def preprocess(text):
     text = text.str.replace('(https)', ' ')
     text = text.str.replace('(http)', ' ')
     return text
-data["clean"] = preprocess(data['text'])
+df_intent2["clean"] = preprocess(df_intent2['first_text'])
 REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;#]')
 BAD_SYMBOLS_RE = re.compile('[^0-9a-z +_]')
 STOPWORDS = stopwords.words('english')
@@ -187,35 +189,126 @@ def text_prepare(text):
     text = ' '.join([word for word in text.split() if word not in STOPWORDS]) # delete stopwords from text
     text = text.strip()
     return text
-data['clean']=[text_prepare(x) for x in data['clean']]
+df_intent2['clean']=[text_prepare(x) for x in df_intent2['clean']]
 from nltk.stem.snowball import SnowballStemmer
 stemmer = SnowballStemmer(language='english')
-tokenized_text = data['clean'].apply(lambda x: x.split()) # tokenizing
+tokenized_text = df_intent2['clean'].apply(lambda x: x.split()) # tokenizing
 tokenized_text = tokenized_text.apply(lambda x: [stemmer.stem(i) for i in x])
 # stitch these tokens back together.
 for i in range(len(tokenized_text)):
     tokenized_text[i] = ' '.join(tokenized_text[i])
-data['clean'] = tokenized_text
+df_intent2['clean'] = tokenized_text
+
 #Function for category id
-data['category_id'] = data['dep'].factorize()[0]
-category_id_df = data[['dep', 'category_id']].drop_duplicates().sort_values('category_id')
+df_intent2['category_id'] = df_intent2['dep'].factorize()[0]
+category_id_df = df_intent2[['dep', 'category_id']].drop_duplicates().sort_values('category_id')
 category_to_id = dict(category_id_df.values)
 id_to_category = dict(category_id_df[['category_id', 'dep']].values)
-#vectorization
 
+#vectorization
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
-tfidf = TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='latin-1', ngram_range=(1, 2), stop_words='english')
+tfidf_intent = TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='latin-1', ngram_range=(1, 2), stop_words='english')
 
-features = tfidf.fit_transform(data.clean).toarray()
-labels = data['dep'].astype(str)
+#1. Intent Model
+features = tfidf_intent.fit_transform(df_intent2.clean).toarray()
+labels = df_intent2['dep'].astype(str)
 model_intent = LinearSVC()
-X_train, X_test, y_train, y_test, indices_train, indices_test = train_test_split(features, labels, data.index, test_size=0.33, random_state=0)
+X_train, X_test, y_train, y_test, indices_train, indices_test = train_test_split(features, labels, df_intent2.index, test_size=0.33, random_state=0)
 model_intent.fit(X_train, y_train)
-y_pred = model_intent.predict(X_test)
+y_pred_intent = model_intent.predict(X_test)
 from sklearn.metrics import accuracy_score
 from sklearn import metrics
-print(accuracy_score(y_test, y_pred))
+print("Accuracy Score for Intent Model is :", accuracy_score(y_test, y_pred_intent))
 #print(metrics.classification_report(y_test, y_pred))
+
+#API testing
+texts=["I was asked to test a saal photobook and I was so delighted with the result! It arrived with in 10 days and was of such high quality, with a white leather look cover and an acrylic glass to protect the front photo. It has made a lovely lockdown gift for my best friend."]
+text_features = tfidf_intent.transform(texts)
+pred_class_int = model_intent.predict(text_features)
+print('"{}"'.format(texts))
+print("  - Predicted as: '{}'".format(pred_class_int))
+prob_score_int=pd.DataFrame(model_intent._predict_proba_lr(text_features), columns=model_intent.classes_)
+print("Probability distribution for intent model is:",prob_score_int.to_json(orient='records'))
+
+#2. Response Model
+df_response2=pd.read_excel('response_5classes.xlsx')
+df_response2=df_response2.rename(columns={'Unnamed: 0':'random_columns'}) # a trick to tackle random index values
+df_response2['first_text']= df_response2['first_text'].str[:300]
+df_response2= df_response2.drop('random_columns', axis=1)
+
+# clean
+#import nltk
+#nltk.download('stopwords')
+#from nltk.corpus import stopwords
+def preprocess(text):
+    text = text.str.replace("(<br>)", "")
+    text = text.str.replace("(<br />)", "")
+    text = text.str.replace('(<p>)', '')
+    text = text.str.replace('( </p>)', '')
+    text = text.str.replace('(;</p>)', '')
+    text = text.str.replace('(&rsquo;)', '')
+    text = text.str.replace('(&rdquo;)', '')
+    text = text.str.replace('(&ldquo;)', '')
+    text = text.str.replace('(&nbsp)', ' ')
+    text = text.str.replace('(www)', ' ')
+    text = text.str.replace('(https)', ' ')
+    text = text.str.replace('(http)', ' ')
+    return text
+df_response2['clean'] = preprocess(df_response2['first_text'])
+REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;#]')
+BAD_SYMBOLS_RE = re.compile('[^0-9a-z +_]')
+STOPWORDS = stopwords.words('english')
+STOPWORDS.extend(['http', 'https'])  # extend stopwords; rt means re-tweet
+STOPWORDS = set(STOPWORDS)
+def text_prepare(text):
+    """
+        text: a string
+
+        return: modified initial string
+    """
+    text = text.lower()  # lowercase text
+    text = REPLACE_BY_SPACE_RE.sub(' ', text)  # replace REPLACE_BY_SPACE_RE symbols by space in text
+    text = BAD_SYMBOLS_RE.sub('', text)  # delete symbols which are in BAD_SYMBOLS_RE from text
+    text = ' '.join([word for word in text.split() if word not in STOPWORDS])  # delete stopwords from text
+    text = text.strip()
+    return text
+df_response2['clean'] = [text_prepare(x) for x in df_response2['clean']]
+#from nltk.stem.snowball import SnowballStemmer
+stemmer = SnowballStemmer(language='english')
+tokenized_text = df_response2['clean'].apply(lambda x: x.split()) # tokenizing
+tokenized_text = tokenized_text.apply(lambda x: [stemmer.stem(i) for i in x])
+# stitch these tokens back together.
+for i in range(len(tokenized_text)):
+    tokenized_text[i] = ' '.join(tokenized_text[i])
+df_response2['clean'] = tokenized_text
+
+#Function for category id
+df_response2['category_id'] = df_response2['firstusedtextblock'].factorize()[0]
+category_id_df = df_response2[['firstusedtextblock', 'category_id']].drop_duplicates().sort_values('category_id')
+category_to_id = dict(category_id_df.values)
+id_to_category = dict(category_id_df[['category_id', 'firstusedtextblock']].values)
+
+#Vectorization
+from sklearn.feature_extraction.text import TfidfVectorizer
+tfidf_response = TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='latin-1', ngram_range=(1, 2), stop_words='english')
+features = tfidf_response.fit_transform(df_response2.clean).toarray()
+labels = df_response2['firstusedtextblock']
+model_response = LinearSVC()
+X_train, X_test, y_train, y_test, indices_train, indices_test = train_test_split(features, labels, df_response2.index, test_size=0.33, random_state=0)
+model_response.fit(X_train, y_train)
+y_pred_res = model_response.predict(X_test)
+from sklearn.metrics import accuracy_score
+print("")
+print("Accuracy Score for Response Model is :" , accuracy_score(y_test, y_pred_res))
+
+#API testing
+texts=["I was asked to test a saal photobook and I was so delighted with the result! It arrived with in 10 days and was of such high quality, with a white leather look cover and an acrylic glass to protect the front photo. It has made a lovely lockdown gift for my best friend."]
+text_features = tfidf_response.transform(texts)
+pred_class_res = model_response.predict(text_features)
+print('"{}"'.format(texts))
+print("  - Predicted as: '{}'".format(pred_class_res))
+prob_score_res=pd.DataFrame(model_response._predict_proba_lr(text_features), columns=model_response.classes_)
+print("Probability distribution for response model is:", prob_score_res.to_json(orient='records'))
