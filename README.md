@@ -6,17 +6,17 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 # Content
 
-- 0)- Guide to setup virtual environment in python. 
+- 0)- Guide to setup virtual environment setup in python. 
 
 - 1)- AI- Chatbot using tensoflow.
 
 - 2)- Auto-Tagging for single and multi-label classes.
 
-- 3)- Binary Classifier.
+- 3)- Binary Classifier for NLP project.
 
-- 4)- CoronaVirus Chatbot using Chatterbot package.
+- 4)- CoronaVirus Chatbot using Chatterbot module in Python.
 
-- 5)- Crowd Flower dataset for sentiment analsis.
+- 5)- Crowd Flower dataset for sentiment analysis.
 
 - 6)- Customized named entity recognition problem using rule based method.
 
@@ -26,17 +26,17 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 9)- Indian Demonetization Opinion Analysis. 
 
-- 10)- Detecting Programming Languages using Rule based method.
+- 10)- Detecting Programming Languages from stack overflow queries using Rule based method.
 
-- 11)- Document Similarity.
+- 11)- Finding Document Similarity.
 
 - 12)- Understanding Eli5 library in Python.
 
 - 13)- Ecosystem using NLP concepts.
 
-- 14)- Entity Extraction from raw text using flair.
+- 14)- Entity Extraction from raw text using flair module.
 
-- 15)- Detecting Fake news.
+- 15)- Detecting Fake news from text.
 
 - 16)- Hate speech identification. 
 
@@ -46,7 +46,7 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 19)- Label extraction using newspaper dataset.
 
-- 20)- Multi-class classifier.
+- 20)- Multi-class classifier for NLP project.
 
 - 21)- Working with NIPS dataset.
 
@@ -54,29 +54,31 @@ This repository contains Ipython notebooks and datasets for the projects related
 
 - 23)- Neural Machine Translation.
 
-- 24)- Opinion Mining
+- 24)- Opinion Mining.
 
-- 25)- Rasa-NLU setup and basics
+- 25)- Rasa-NLU setup and basics.
 
-- 26)- Sentiment Analysis
+- 26)- Sentiment Analysis.
 
-- 27)- Spacy Tutorial
+- 27)- Spacy Tutorial.
 
-- 28)- Spam SMS Detection
+- 28)- Spam SMS Detection.
 
-- 29)- Text parsing for PDF files
+- 29)- Text parsing for PDF files.
 
-- 30)- Basics of text analytics using Spacy
+- 30)- Basics of text analytics using Spacy.
 
-- 31)- Text classification in innovation prediction
+- 31)- Text classification in innovation prediction.
 
-- 32)- Text generation using LSTM
+- 32)- Text generation using LSTM.
 
-- 33)- Understanding sentiment analysis concept with code+theory
+- 33)- Understanding sentiment analysis concept with code+theory.
 
-- 34)- Pytorch tutorials
+- 34)- Vectorization process for NLP project.
 
-- 35)- Word2Vec for word embeddings application
+- 35)- Pytorch tutorials.
+
+- 36)- Word2Vec for word embeddings application.
 
 
 # Modules
