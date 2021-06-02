@@ -40,7 +40,7 @@ srsly==1.0.2
 thinc==7.0.8
 toolz==0.10.0
 tqdm==4.47.0
-urllib3==1.25.9
+urllib3==1.26.5
 wasabi==0.7.0
 Werkzeug==1.0.1
 wincertstore==0.2
